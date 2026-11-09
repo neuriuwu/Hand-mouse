@@ -1,0 +1,13 @@
+[package]
+name = "hand-mouse"
+version = "0.1.0"
+edition = "2021"
+description = "Control the desktop mouse with real-time hand landmarks from a webcam"
+license = "MIT"
+
+[dependencies]
+anyhow = "1.0"
+clap = { version = "4.5", features = ["derive"] }
+enigo = "0.2"
+nalgebra = "0.33"
+opencv = { git = "https://github.com/twistedfall/opencv-rust", branch = "master", default-features = false, features = ["clang-runtime", "dnn", "highgui", "imgproc", "videoio"] }

@@ -1,0 +1,11 @@
+C:\Users\X13_Gen2\Code\HOLYSHITCOMPUTERVISION!\target\release\deps\enigo-a161f88e42f17196.d: C:\Users\X13_Gen2\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enigo-0.2.1\src\lib.rs C:\Users\X13_Gen2\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enigo-0.2.1\src\agent.rs C:\Users\X13_Gen2\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enigo-0.2.1\src\win\mod.rs C:\Users\X13_Gen2\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enigo-0.2.1\src\win\win_impl.rs C:\Users\X13_Gen2\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enigo-0.2.1\src\keycodes.rs
+
+C:\Users\X13_Gen2\Code\HOLYSHITCOMPUTERVISION!\target\release\deps\libenigo-a161f88e42f17196.rlib: C:\Users\X13_Gen2\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enigo-0.2.1\src\lib.rs C:\Users\X13_Gen2\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enigo-0.2.1\src\agent.rs C:\Users\X13_Gen2\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enigo-0.2.1\src\win\mod.rs C:\Users\X13_Gen2\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enigo-0.2.1\src\win\win_impl.rs C:\Users\X13_Gen2\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enigo-0.2.1\src\keycodes.rs
+
+C:\Users\X13_Gen2\Code\HOLYSHITCOMPUTERVISION!\target\release\deps\libenigo-a161f88e42f17196.rmeta: C:\Users\X13_Gen2\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enigo-0.2.1\src\lib.rs C:\Users\X13_Gen2\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enigo-0.2.1\src\agent.rs C:\Users\X13_Gen2\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enigo-0.2.1\src\win\mod.rs C:\Users\X13_Gen2\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enigo-0.2.1\src\win\win_impl.rs C:\Users\X13_Gen2\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enigo-0.2.1\src\keycodes.rs
+
+C:\Users\X13_Gen2\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enigo-0.2.1\src\lib.rs:
+C:\Users\X13_Gen2\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enigo-0.2.1\src\agent.rs:
+C:\Users\X13_Gen2\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enigo-0.2.1\src\win\mod.rs:
+C:\Users\X13_Gen2\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enigo-0.2.1\src\win\win_impl.rs:
+C:\Users\X13_Gen2\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enigo-0.2.1\src\keycodes.rs:

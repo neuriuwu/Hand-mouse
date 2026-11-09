@@ -1,0 +1,5 @@
+[env]
+OPENCV_VERSION = "4.14.0"
+VCPKG_ROOT = "C:\\vcpkg"
+OpenCV_DIR = "C:\\vcpkg\\installed\\x64-windows\\share\\opencv"
+LIBCLANG_PATH = "C:\\Program Files\\LLVM\\bin"

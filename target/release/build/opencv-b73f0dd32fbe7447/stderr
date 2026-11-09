@@ -1,0 +1,188 @@
+=== Crate version: 0.102.0
+=== Environment configuration:
+===   OPENCV_PACKAGE_NAME = None
+===   OPENCV_PKGCONFIG_NAME = None
+===   OPENCV_CMAKE_NAME = None
+===   OPENCV_CMAKE_BIN = None
+===   OPENCV_VCPKG_NAME = None
+===   OPENCV_LINK_LIBS = Some("opencv_calib3d4,opencv_core4,opencv_dnn4,opencv_features2d4,opencv_flann4,opencv_highgui4,opencv_imgcodecs4,opencv_imgproc4,opencv_ml4,opencv_objdetect4,opencv_photo4,opencv_stitching4,opencv_video4,opencv_videoio4")
+===   OPENCV_LINK_PATHS = Some("C:\\vcpkg\\installed\\x64-windows\\lib")
+===   OPENCV_INCLUDE_PATHS = Some("C:\\vcpkg\\installed\\x64-windows\\include\\opencv4")
+===   OPENCV_DISABLE_PROBES = Some("vcpkg_cmake,vcpkg,pkg_config,cmake")
+===   OPENCV_MSVC_CRT = None
+===   OPENCV_CMAKE_TOOLCHAIN_FILE = None
+===   OPENCV_CMAKE_ARGS = None
+===   CMAKE_PREFIX_PATH = None
+===   OpenCV_DIR = Some("C:\\vcpkg\\installed\\x64-windows\\share\\opencv")
+===   PKG_CONFIG_PATH = None
+===   VCPKG_ROOT = Some("C:\\vcpkg")
+===   VCPKGRS_DYNAMIC = None
+===   VCPKGRS_TRIPLET = None
+===   OCVRS_DOCS_GENERATE_DIR = None
+===   DOCS_RS = None
+===   PATH = Some("C:\\Users\\X13_Gen2\\Code\\HOLYSHITCOMPUTERVISION!\\target\\release;C:\\Users\\X13_Gen2\\Code\\HOLYSHITCOMPUTERVISION!\\target\\release\\deps;C:\\Users\\X13_Gen2\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib;C:\\Users\\X13_Gen2\\Code\\ezBooru\\.venv\\Scripts;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\CMake\\bin;C:\\Users\\X13_Gen2\\.cargo\\bin;C:\\Users\\X13_Gen2\\.local\\bin;C:\\Users\\X13_Gen2\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\X13_Gen2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\X13_Gen2\\AppData\\Local\\GitHubCopilotCLI\\;C:\\Users\\X13_Gen2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim;C:\\Users\\X13_Gen2\\AppData\\Local\\Python\\bin;C:\\Users\\X13_Gen2\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe;;c:\\Users\\X13_Gen2\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts;c:\\Users\\X13_Gen2\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand;C:\\Users\\X13_Gen2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim;C:\\Program Files\\LLVM\\bin;C:\\Program Files\\LLVM\\bin;C:\\Users\\X13_Gen2\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin")
+=== Enabled features:
+===   CLANG_RUNTIME
+===   DNN
+===   HIGHGUI
+===   IMGPROC
+===   VIDEOIO
+=== Detected probe priority boost based on environment vars: pkg_config: false, cmake: true, vcpkg: true
+=== Probing the OpenCV library in the following order: environment, cmake, vcpkg_cmake, vcpkg, pkg_config
+=== Configuring OpenCV library from the environment:
+===   include_paths: C:\vcpkg\installed\x64-windows\include\opencv4
+===   link_paths: C:\vcpkg\installed\x64-windows\lib
+===   link_libs: opencv_calib3d4,opencv_core4,opencv_dnn4,opencv_features2d4,opencv_flann4,opencv_highgui4,opencv_imgcodecs4,opencv_imgproc4,opencv_ml4,opencv_objdetect4,opencv_photo4,opencv_stitching4,opencv_video4,opencv_videoio4
+=== Link search path: LinkSearch(Default, "C:\\vcpkg\\installed\\x64-windows\\lib")
+=== Linking to library: LinkLib(Default, "opencv_calib3d4")
+=== Linking to library: LinkLib(Default, "opencv_core4")
+=== Linking to library: LinkLib(Default, "opencv_dnn4")
+=== Linking to library: LinkLib(Default, "opencv_features2d4")
+=== Linking to library: LinkLib(Default, "opencv_flann4")
+=== Linking to library: LinkLib(Default, "opencv_highgui4")
+=== Linking to library: LinkLib(Default, "opencv_imgcodecs4")
+=== Linking to library: LinkLib(Default, "opencv_imgproc4")
+=== Linking to library: LinkLib(Default, "opencv_ml4")
+=== Linking to library: LinkLib(Default, "opencv_objdetect4")
+=== Linking to library: LinkLib(Default, "opencv_photo4")
+=== Linking to library: LinkLib(Default, "opencv_stitching4")
+=== Linking to library: LinkLib(Default, "opencv_video4")
+=== Linking to library: LinkLib(Default, "opencv_videoio4")
+=== Successfully probed using: environment
+=== OpenCV library configuration: Library {
+    include_paths: [
+        "C:\\vcpkg\\installed\\x64-windows\\include\\opencv4",
+    ],
+    version: Version {
+        major: 4,
+        minor: 14,
+        patch: 0,
+    },
+    inherent_features: [
+        "directx",
+        "directx_nv12",
+        "d3d11",
+        "d3d10",
+        "d3d9",
+        "jpeg",
+        "png",
+        "tiff",
+        "quirc",
+    ],
+    cargo_metadata: [
+        "cargo::rustc-link-search=C:\\vcpkg\\installed\\x64-windows\\lib",
+        "cargo::rustc-link-lib=opencv_calib3d4",
+        "cargo::rustc-link-lib=opencv_core4",
+        "cargo::rustc-link-lib=opencv_dnn4",
+        "cargo::rustc-link-lib=opencv_features2d4",
+        "cargo::rustc-link-lib=opencv_flann4",
+        "cargo::rustc-link-lib=opencv_highgui4",
+        "cargo::rustc-link-lib=opencv_imgcodecs4",
+        "cargo::rustc-link-lib=opencv_imgproc4",
+        "cargo::rustc-link-lib=opencv_ml4",
+        "cargo::rustc-link-lib=opencv_objdetect4",
+        "cargo::rustc-link-lib=opencv_photo4",
+        "cargo::rustc-link-lib=opencv_stitching4",
+        "cargo::rustc-link-lib=opencv_video4",
+        "cargo::rustc-link-lib=opencv_videoio4",
+    ],
+}
+=== Found OpenCV version: 4.14.0 in headers located at: C:\vcpkg\installed\x64-windows\include\opencv4
+=== Detected OpenCV module header dir at: C:\vcpkg\installed\x64-windows\include\opencv4\opencv2
+=== Skipping unsupported module: opencv
+=== Skipping unsupported module: opencv_modules
+=== Generating code in: C:\Users\X13_Gen2\Code\HOLYSHITCOMPUTERVISION!\target\release\build\opencv-b73f0dd32fbe7447\out
+=== Placing generated bindings into: C:\Users\X13_Gen2\Code\HOLYSHITCOMPUTERVISION!\target\release\build\opencv-b73f0dd32fbe7447\out\opencv
+=== Using OpenCV headers from: C:\vcpkg\installed\x64-windows\include\opencv4
+=== Clang: clang version 23.1.5 (https://github.com/llvm/llvm-project 392dfff97d29b59d77e5cac6d4b6ef2585fe7117)
+=== Clang command line args: [
+    "-isystemC:\\Program Files\\LLVM\\lib\\clang\\23\\include",
+    "-isystemC:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include",
+    "-isystemC:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt",
+    "-isystemC:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\shared",
+    "-isystemC:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\um",
+    "-isystemC:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\winrt",
+    "-isystemC:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\cppwinrt",
+    "-IC:\\vcpkg\\installed\\x64-windows\\include\\opencv4",
+    "-FC:\\vcpkg\\installed\\x64-windows\\include\\opencv4",
+    "-IC:\\Users\\X13_Gen2\\.cargo\\git\\checkouts\\opencv-rust-fab9fd0e1d8a8150\\21fb0fa\\src_cpp",
+    "-FC:\\Users\\X13_Gen2\\.cargo\\git\\checkouts\\opencv-rust-fab9fd0e1d8a8150\\21fb0fa\\src_cpp",
+    "-DOCVRS_PARSING_HEADERS",
+    "-includeocvrs_common.hpp",
+    "-std=c++17",
+]
+=== Using environment job server with the the amount of available jobs: 8
+=== Generating 5 modules
+=== Running: "C:\\Users\\X13_Gen2\\Code\\HOLYSHITCOMPUTERVISION!\\target\\release\\build\\opencv-525beb2e938249f7\\build-script-build.exe" "C:\\vcpkg\\installed\\x64-windows\\include\\opencv4" "C:\\Users\\X13_Gen2\\.cargo\\git\\checkouts\\opencv-rust-fab9fd0e1d8a8150\\21fb0fa\\src_cpp" "C:\\Users\\X13_Gen2\\Code\\HOLYSHITCOMPUTERVISION!\\target\\release\\build\\opencv-b73f0dd32fbe7447\\out" "core" ""
+=== Running: "C:\\Users\\X13_Gen2\\Code\\HOLYSHITCOMPUTERVISION!\\target\\release\\build\\opencv-525beb2e938249f7\\build-script-build.exe" "C:\\vcpkg\\installed\\x64-windows\\include\\opencv4" "C:\\Users\\X13_Gen2\\.cargo\\git\\checkouts\\opencv-rust-fab9fd0e1d8a8150\\21fb0fa\\src_cpp" "C:\\Users\\X13_Gen2\\Code\\HOLYSHITCOMPUTERVISION!\\target\\release\\build\\opencv-b73f0dd32fbe7447\\out" "dnn" ""
+=== Running: "C:\\Users\\X13_Gen2\\Code\\HOLYSHITCOMPUTERVISION!\\target\\release\\build\\opencv-525beb2e938249f7\\build-script-build.exe" "C:\\vcpkg\\installed\\x64-windows\\include\\opencv4" "C:\\Users\\X13_Gen2\\.cargo\\git\\checkouts\\opencv-rust-fab9fd0e1d8a8150\\21fb0fa\\src_cpp" "C:\\Users\\X13_Gen2\\Code\\HOLYSHITCOMPUTERVISION!\\target\\release\\build\\opencv-b73f0dd32fbe7447\\out" "highgui" ""
+=== Running: "C:\\Users\\X13_Gen2\\Code\\HOLYSHITCOMPUTERVISION!\\target\\release\\build\\opencv-525beb2e938249f7\\build-script-build.exe" "C:\\vcpkg\\installed\\x64-windows\\include\\opencv4" "C:\\Users\\X13_Gen2\\.cargo\\git\\checkouts\\opencv-rust-fab9fd0e1d8a8150\\21fb0fa\\src_cpp" "C:\\Users\\X13_Gen2\\Code\\HOLYSHITCOMPUTERVISION!\\target\\release\\build\\opencv-b73f0dd32fbe7447\\out" "imgproc" ""
+=== Running: "C:\\Users\\X13_Gen2\\Code\\HOLYSHITCOMPUTERVISION!\\target\\release\\build\\opencv-525beb2e938249f7\\build-script-build.exe" "C:\\vcpkg\\installed\\x64-windows\\include\\opencv4" "C:\\Users\\X13_Gen2\\.cargo\\git\\checkouts\\opencv-rust-fab9fd0e1d8a8150\\21fb0fa\\src_cpp" "C:\\Users\\X13_Gen2\\Code\\HOLYSHITCOMPUTERVISION!\\target\\release\\build\\opencv-b73f0dd32fbe7447\\out" "videoio" ""
+=== Generated module bindings: highgui in: 1.7131818s
+=== Generated module bindings: videoio in: 1.7816507s
+=== Generated module bindings: imgproc in: 3.5412817s
+=== Generated module bindings: core in: 5.1732181s
+=== Generated module bindings: dnn in: 6.0259399s
+=== Total binding generation time: 6.0272095s
+=== Total binding collection time: 232.186ms
+=== Compiler information: Tool {
+    path: "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+    cc_wrapper_path: None,
+    cc_wrapper_args: [],
+    args: [
+        "-nologo",
+        "-MD",
+        "-O2",
+        "-Brepro",
+        "-std:c++17",
+        "-I",
+        "C:\\Users\\X13_Gen2\\.cargo\\git\\checkouts\\opencv-rust-fab9fd0e1d8a8150\\21fb0fa\\src_cpp",
+        "-I",
+        "C:\\Users\\X13_Gen2\\Code\\HOLYSHITCOMPUTERVISION!\\target\\release\\build\\opencv-b73f0dd32fbe7447\\out",
+        "-I",
+        ".",
+        "-I",
+        "C:\\vcpkg\\installed\\x64-windows\\include\\opencv4",
+        "-W4",
+        "-EHsc",
+        "-bigobj",
+        "-utf-8",
+        "-wd4996",
+        "-wd5054",
+        "-wd4190",
+        "-wd4702",
+        "-wd4100",
+        "-wd4127",
+        "-DOCVRS_FFI_EXPORT_SUFFIX=_0_102_0",
+        "-DOCVRS_TARGET_OS_WINDOWS=1",
+    ],
+    env: [
+        (
+            "LIB",
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.26100.0\\ucrt\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.26100.0\\um\\x64;",
+        ),
+        (
+            "PATH",
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64;C:\\Users\\X13_Gen2\\Code\\HOLYSHITCOMPUTERVISION!\\target\\release;C:\\Users\\X13_Gen2\\Code\\HOLYSHITCOMPUTERVISION!\\target\\release\\deps;C:\\Users\\X13_Gen2\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib;C:\\Users\\X13_Gen2\\Code\\ezBooru\\.venv\\Scripts;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\CMake\\bin;C:\\Users\\X13_Gen2\\.cargo\\bin;C:\\Users\\X13_Gen2\\.local\\bin;C:\\Users\\X13_Gen2\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\X13_Gen2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\X13_Gen2\\AppData\\Local\\GitHubCopilotCLI\\;C:\\Users\\X13_Gen2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim;C:\\Users\\X13_Gen2\\AppData\\Local\\Python\\bin;C:\\Users\\X13_Gen2\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe;;c:\\Users\\X13_Gen2\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts;c:\\Users\\X13_Gen2\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand;C:\\Users\\X13_Gen2\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim;C:\\Program Files\\LLVM\\bin;C:\\Program Files\\LLVM\\bin;C:\\Users\\X13_Gen2\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin",
+        ),
+        (
+            "INCLUDE",
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\um;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\cppwinrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\winrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\shared;",
+        ),
+        (
+            "VSLANG",
+            "1033",
+        ),
+    ],
+    env_os_strings: OnceLock(
+        <uninit>,
+    ),
+    inherited_env: EnvSnapshot(<126 variables>),
+    family: Msvc {
+        clang_cl: false,
+    },
+    cuda: false,
+    removed_args: [],
+    has_internal_target_arg: false,
+}
+=== Total cpp build time: 9.0303042s

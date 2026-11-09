@@ -1,0 +1,1 @@
+vector::Vector<boxed_ref::BoxedRef<'_, GpuMat>>: vector::vector_extern::VectorExtern<boxed_ref::BoxedRef<'_, GpuMat>>

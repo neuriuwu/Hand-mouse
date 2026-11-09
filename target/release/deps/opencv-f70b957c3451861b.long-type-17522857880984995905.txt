@@ -1,0 +1,1 @@
+vector::Vector<rect::Rect_<f64>>: vector::vector_extern::VectorExtern<rect::Rect_<f64>>
